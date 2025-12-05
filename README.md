@@ -71,6 +71,14 @@ In the UI:
 - Validation accuracy (top-5): ~1.00
 - Weights: `runs/classify/train3/weights/best.pt`
 
+### Sample Validation Outputs
+Confusion matrix (normalized):
+![Confusion Matrix Normalized](runs/classify/val3/confusion_matrix_normalized.png)
+
+Validation batch (labels vs predictions):
+![Val Batch 2 Labels](runs/classify/val3/val_batch2_labels.jpg)
+![Val Batch 2 Pred](runs/classify/val3/val_batch2_pred.jpg)
+
 ## Notes
 - If `verify.py` cannot find weights, point `--weights` to the correct `best.pt`.
 - For reproducible splits, `data_prep.py` uses seed 42 by default; change with `--seed`.

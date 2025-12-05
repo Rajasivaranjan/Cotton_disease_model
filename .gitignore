@@ -1,0 +1,41 @@
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+
+# Project artifacts
+runs/
+yolo_dataset/
+Dataset/
+*.pt
+*.onnx
+*.png
+*.jpg
+*.jpeg
+
+# Keep specific result images referenced in README
+!runs/
+!runs/classify/
+!runs/classify/val3/
+!runs/classify/val3/confusion_matrix_normalized.png
+!runs/classify/val3/val_batch2_labels.jpg
+!runs/classify/val3/val_batch2_pred.jpg
+
+# Streamlit
+.streamlit/
+
