@@ -75,8 +75,10 @@ In the UI:
 Confusion matrix (normalized):
 ![Confusion Matrix Normalized](runs/classify/val3/confusion_matrix_normalized.png)
 
-Validation batch (labels vs predictions):
+Validation batch (Actuals vs predictions):
+Actuals
 ![Val Batch 2 Labels](runs/classify/val3/val_batch2_labels.jpg)
+Predictions
 ![Val Batch 2 Pred](runs/classify/val3/val_batch2_pred.jpg)
 
 ## Notes
